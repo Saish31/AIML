@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopFusion - Products</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 20px;
+      text-align: center;
+    }
+    .card-content h3 {
+      margin: 10px 0;
+    }
+    .card-content p {
+      font-size: 18px;
+      color: #333;
+    }
+    .chatbot {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Welcome to ShopFusion
+  </header>
+  <div class="container">
+    <!-- product cards here -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1640026199235-c24aa417b552?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c29ja3N8ZW58MHx8MHx8fDA%3D" alt="Cotton Crew Socks">
+      <div class="card-content">
+        <h3>Cotton Crew Socks</h3>
+        <p>$9.99</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1589365252845-092198ba5334?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFtYm9vJTIwdG9vdGhicnVzaHxlbnwwfHwwfHx8MA%3D%3D" alt="Bamboo Toothbrushes">
+      <div class="card-content">
+        <h3>Bamboo Toothbrushes</h3>
+        <p>$4.99</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1603899122911-27c0cb85824a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VVNCJTIwQyUyMENoYXJnaW5nJTIwQ2FibGVzfGVufDB8fDB8fHww" alt="USB-C Charging Cables">
+      <div class="card-content">
+        <h3>USB-C Charging Cables</h3>
+        <p>$12.99</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://plus.unsplash.com/premium_photo-1723568541090-921aed7e41e4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2VyYW1pYyUyMENvZmZlZSUyME11Z3N8ZW58MHx8MHx8fDA%3D" alt="Ceramic Coffee Mugs">
+      <div class="card-content">
+        <h3>Ceramic Coffee Mugs</h3>
+        <p>$8.99</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1730378616989-499041edc37a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8T3JnYW5pYyUyMFNvYXAlMjBCYXJzfGVufDB8fDB8fHww" alt="Organic Soap Bars">
+      <div class="card-content">
+        <h3>Organic Soap Bars</h3>
+        <p>$5.49</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://plus.unsplash.com/premium_photo-1664007549590-6e5bdaf02c15?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RhaW5sZXNzJTIwU3RlZWwlMjBTdHJhd3N8ZW58MHx8MHx8fDA%3D" alt="Stainless-Steel Straws">
+      <div class="card-content">
+        <h3>Reusable Stainless-Steel Straws</h3>
+        <p>$7.99</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://plus.unsplash.com/premium_photo-1667251760532-85310936c89a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QTUlMjBOb3RlYm9va3N8ZW58MHx8MHx8fDA%3D" alt="A5 Notebooks">
+      <div class="card-content">
+        <h3>A5 Notebooks</h3>
+        <p>$6.49</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1602607202436-d1b8db3b7b32?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U295JTIwV2F4JTIwU2NlbnRlZCUyMENhbmRsZXN8ZW58MHx8MHx8fDA%3D" alt="Soy-Wax Scented Candles">
+      <div class="card-content">
+        <h3>Soy-Wax Scented Candles</h3>
+        <p>$14.99</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1723361750241-1c6b55fdaf43?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QmFtYm9vJTIwQ3V0bGVyeSUyMFNldHN8ZW58MHx8MHx8fDA%3D" alt="Bamboo Cutlery Sets">
+      <div class="card-content">
+        <h3>Bamboo Cutlery Sets</h3>
+        <p>$11.99</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chatbot Embed -->
+  <div class="chatbot">
+    <iframe
+      allow="microphone;"
+      width="350"
+      height="430"
+      src="https://console.dialogflow.com/api-client/demo/embedded/dacebab2-1e33-4efc-989e-b67dce31a687">
+    </iframe>
+  </div>
+</body>
+</html>
