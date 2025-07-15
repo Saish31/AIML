@@ -1,4 +1,4 @@
-**# Transformer-based English–Hindi Translator**  
+<h1>Transformer-based English–Hindi Translator</h1>  
 
 **A PyTorch implementation of a Transformer model built from scratch to translate English sentences to Hindi.**  
 
