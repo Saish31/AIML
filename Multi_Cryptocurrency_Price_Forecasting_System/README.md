@@ -7,9 +7,6 @@
 ### ## 📸 Dashboard Screenshot
 <img width="263" height="278" alt="image" src="https://github.com/user-attachments/assets/112cfe50-e3c7-4e9a-aa2e-b7a87d2d1711" />
 
-![Dashboard Screenshot](path/to/your/screenshot.png)
-*(Replace the above path with a screenshot of your running application)*
-
 ---
 
 ### ## ✨ Key Features
@@ -53,14 +50,3 @@ This project follows a rigorous, iterative data science workflow.
     | SARIMAX (Baseline) | 4.15% |
 
 4.  **Strategy Backtesting & Conclusion:** The final ensemble model's predictions were used to power a simple trading strategy. The backtest revealed that while the model had a **win rate > 50%**, it underperformed a simple "Buy and Hold" strategy during the 2020-2021 bull market. This highlights a key challenge in financial ML: models trained on historical data may not generalize during new **market regime shifts**. The project's success lies in its ability to rigorously arrive at this nuanced and realistic conclusion.
-
----
-
-### ## 🚀 How to Run Locally
-
-To run this application on your local machine, follow these steps:
-
-**1. Clone the repository:**
-```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
