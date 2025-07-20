@@ -34,4 +34,8 @@ The model achieved an excellent **98% recall for pneumonia**, indicating it is v
 ### 🛠️ Tech Stack  
   
 * **Language:** Python  
-* **Libraries:** TensorFlow/Keras, Scikit-learn, OpenCV, Streamlit, Matplotlib, NumPy, Pillow  
+* **Libraries:** TensorFlow/Keras, Scikit-learn, OpenCV, Streamlit, Matplotlib, NumPy, Pillow
+
+---
+
+The dataset used is https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia  
